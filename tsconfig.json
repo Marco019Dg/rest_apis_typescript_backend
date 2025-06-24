@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "lib": ["ESNext"], // Versión de Javascript a compilar.
+        "target": "ESNext", //Soporte para guardar datos en la Base de Datos por medio de clases.("EsNext" utiliza la versión más reciente)
+        "moduleResolution": "nodenext", //Soporte para guardar datos en la Base de Datos por medio de clases.
+        "module": "NodeNext", //Soporte para guardar datos en la Base de Datos por medio de clases.
+        "strict": false, // Modo estricto.
+        "sourceMap": true, //Incluir SourceMap.
+        "esModuleInterop": true, // Importa librerias que esten escritas en CommonJs
+        "declaration": true, //Genera los archivos de definición
+        "experimentalDecorators": true, //Soporte a decoradores.
+        "emitDecoratorMetadata": true //Soporte a decoradores.
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["src/**/*.test.ts"]
+}
