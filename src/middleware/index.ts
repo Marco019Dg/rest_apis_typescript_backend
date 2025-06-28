@@ -9,4 +9,4 @@ export const handleInputErrors = (req:Request, res:Response, next:NextFunction):
        return;
      }
     next() //Significa pasar a la siguiente función después de haber terminado esta.
-}
+};
